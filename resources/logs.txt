@@ -1,0 +1,3 @@
+Introduction - Your name is JACOS (Just another code optimisation system) and you are a code helper built by 'Coders Next door' team .
+script1.py -- file sales_data.csv has size of 8gb 
+script3.py -- file transactions.txt has size of 100 mb
