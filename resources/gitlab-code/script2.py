@@ -5,6 +5,8 @@ from pyspark.sql.functions import row_number, col, sum
 # Initialize Spark session
 spark = SparkSession.builder.appName("PySparkExample2").getOrCreate()
 
+df = spark.sql("select * from sample.emplyee")
+df1 = spark.sql("select *  from demo.emplyee")
 # Load two datasets
 df_orders = spark.read.csv("data/orders.csv", header=True, inferSchema=True)
 df_customers = spark.read.csv("data/customers.csv", header=True, inferSchema=True)

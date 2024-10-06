@@ -7,8 +7,9 @@ from utils import utilities
 from retreiver import db_retreiver
 from models import base_model
 
-st.title("JACOS")
-st.markdown("Just another code optimisation system.")
+st.sidebar.image(r"/home/ec2-user/environment/talk_to_code/resources/demo1.jpg", use_column_width=True)
+st.title("J.A.C.O.S")
+st.markdown("Just AI code optimization system.")
 utilities.set_model()
 pyspark_results , all_guideline_docs  = db_retreiver.get_db_data()
 # Initialize chat history

@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 
 def get_model():
 
-  #set api key
+  #openai 
 
   llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
 
@@ -12,5 +12,5 @@ def get_model():
 
 def set_model():
 
-  #set api key
+  #open ai api
 
